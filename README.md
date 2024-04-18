@@ -11,12 +11,12 @@ The main branch of this repository is what gets deployed. Additionally, a contai
 
 ### Instructions
 1. Connect to the jump box using the provided SSH key (`pebble-key.pem`). Ensure the key file permissions are set correctly:
-chmod 0400 pebble-key.pem
-ssh -i pebble-key.pem admin@44.222.203.113
+<code>chmod 0400 pebble-key.pem</code>
+<code>ssh -i pebble-key.pem admin@44.222.203.113</code>
 
 2. To deploy the web application, use the following command on the jump box:
-make deploy
+<code>make deploy</code>
 
 ### Redeployment
 When new code is merged into the main branch, you can redeploy via the jump box using:
-make redeploy
+<code>make redeploy</code>
