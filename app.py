@@ -20,4 +20,4 @@ async def check_fibonacci(number: int):
     if is_fibonacci(number):
         return {"next_fibonacci": next_fibonacci(number)}
     else:
-        return {"message": "Not Fibonacci"}
+        return {"message": "Not a Fibonacci number"}
